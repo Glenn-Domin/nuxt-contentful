@@ -7,21 +7,50 @@
       <h2 class="subtitle">
         My phenomenal Nuxt.js project
       </h2>
-      <div v-for="post in posts" :key="post.id">
-        <div v-html="parseFullDescription(post.fields)" />
+      <div v-if="alert" class="alert">
+        {{ alert }}
       </div>
+      <div v-for="post in posts" :key="post.id" v-html="parseFullDescription(post.fields)" />
     </div>
   </div>
 </template>
 
 <script>
-import GETDATA from '~/mixins/contentful.js'
+import { createClient } from '~/plugins/contentful.js'
+import FORMATDATA from '~/mixins/formatData.js'
+
+const client = createClient()
+const contentType = 'home'
 
 export default {
   name: 'Home',
-  mixins: [GETDATA],
-  created () {
-    console.log(this.$route)
+  mixins: [FORMATDATA],
+  // `env` is available in the context object
+  asyncData ({ env }) {
+    return Promise.all([
+      // fetch the owner of the blog
+      client.getEntries({
+        'sys.id': env.CTF_PERSON_ID
+      }),
+      // fetch all blog posts sorted by creation date
+      client.getEntries({
+        content_type: contentType, // eslint-disable-line
+        order: '-sys.createdAt'
+      })
+    ]).then(([entries, posts]) => {
+      // return data that should be available
+      // in the template
+      return {
+        person: entries.items[0],
+        posts: posts.items,
+        alert: ''
+      }
+    }).catch(() => {
+      return {
+        posts: [],
+        alert: 'Server error. Please contact us.'
+      }
+    })
   }
 }
 </script>
