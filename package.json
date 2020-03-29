@@ -1,8 +1,8 @@
 {
   "name": "brettie",
   "version": "1.0.0",
-  "description": "My phenomenal Nuxt.js project",
-  "author": "glenndomin",
+  "description": "Brett Jacobson | Psychologist",
+  "author": "Glenn Domin",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -13,9 +13,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "contentful": "^7.14.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "bootstrap-scss": "^4.2.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
@@ -26,6 +25,11 @@
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
-    "vue-jest": "^4.0.0-0"
-  }
+    "vue-jest": "^4.0.0-0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
+  },
+  "browserslist": [
+    "> 1% in AU"
+  ]
 }
