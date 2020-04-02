@@ -1,14 +1,16 @@
 <template>
-  <div class="container">
-    <div style="text-align: left;">
-      <h1 class="title">
-        brettie
-      </h1>
-      <h2 class="subtitle">
-        My phenomenal Nuxt.js project
-      </h2>
-    </div>
-  </div>
+  <main>
+    <section class="">
+      <hgroup class="home-heading my-6">
+        <h1 class="home-flare py-5 mb-6">
+          I'm baby humblebrag pinterest photo booth, organic tousled brunch 90's man
+        </h1>
+        <h2>Franzen typewriter plaid viral shoreditch</h2>
+      </hgroup>
+      <p>Hi, my name's Brett. Welcome. You've taken a big step coming here!</p>
+      <p>Counselling and Psychology can sometimes feel clinical and impersonal. Thundercats shabby chic banh mi, taiyaki hexagon seitan cliche pug enamel pin keffiyeh photo booth drinking vinegar 90's intelligentsia.</p>
+    </section>
+  </main>
 </template>
 
 <script>
@@ -17,35 +19,36 @@ export default {
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+<style lang="scss">
+.home-heading {
   text-align: center;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+.home-flare {
+  position: relative;
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+  &::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: -5%;
+    z-index: -1;
+    width: 140%;
+    height: 140%;
+    background-image: url('/images/flare-1-blue2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.25;
+  }
 
-.links {
-  padding-top: 15px;
+  h1,
+  h2 {
+    line-height: 1.5;
+  }
 }
 </style>

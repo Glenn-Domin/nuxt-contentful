@@ -1,5 +1,3 @@
-const config = require('./.contentful.json')
-
 export default {
   mode: 'universal',
   /*
@@ -24,6 +22,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/scss/styles.scss'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -57,13 +56,9 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend () {
     }
   },
   env: {
-    CTF_SPACE_ID: config.CTF_SPACE_ID,
-    CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
-    CTF_PERSON_ID: config.CTF_PERSON_ID,
-    CTF_HOME_ID: config.CTF_BLOG_POST_TYPE_ID
   }
 }

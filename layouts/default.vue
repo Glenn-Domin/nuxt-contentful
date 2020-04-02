@@ -1,8 +1,19 @@
 <template>
-  <div>
-    <nuxt />
+  <div class="container overflow-hidden">
+    <navbar class="my-4" />
+    <nuxt class="my-5" />
   </div>
 </template>
+
+<script>
+import navbar from '~/components/NavBar'
+
+export default {
+  components: {
+    navbar
+  }
+}
+</script>
 
 <style>
 html {

@@ -1,0 +1,8 @@
+.nav-link {
+  color: $body-color;
+
+  &:hover span {
+    border-bottom: 1px solid $link-color;
+    color: $link-color;
+  }
+}
