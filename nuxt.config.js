@@ -12,7 +12,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    titleTemplate: '%s - Brett Jacobson, Psychologist'
   },
   /*
   ** Customize the progress-bar color

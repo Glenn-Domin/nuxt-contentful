@@ -193,7 +193,7 @@ $grid-breakpoints: map-merge(
     xs: 0,
     sm: 576px,
     md: 768px,
-    lg: 820px
+    lg: 860px
   ),
   $grid-breakpoints
 );
@@ -212,7 +212,7 @@ $container-max-widths: map-merge(
   (
     sm: 540px,
     md: 720px,
-    lg: 770px
+    lg: 820px
   ),
   $container-max-widths
 );
@@ -240,7 +240,7 @@ $border-color:                $gray-300 !default;
 
 $border-radius:               .25rem !default;
 $border-radius-lg:            .3rem !default;
-$border-radius-sm:            .2rem !default;
+$border-radius-sm:            1px;
 
 $rounded-pill:                50rem !default;
 
@@ -293,9 +293,9 @@ $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default;
 
 $h1-font-size:                $font-size-base * 3.4375;
-$h2-font-size:                $font-size-base * 2.25;
-$h3-font-size:                $font-size-base * 1.5;
-$h4-font-size:                $font-size-base * 1.25;
+$h2-font-size:                $font-size-base * 2.75;
+$h3-font-size:                $font-size-base * 2.25;
+$h4-font-size:                $font-size-base * 1.5;
 $h5-font-size:                $font-size-base * 1;
 
 $headings-margin-bottom:      $spacer / 2 !default;
@@ -347,8 +347,8 @@ $hr-margin-y:                 $spacer !default;
 //
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
-$input-btn-padding-y:         .375rem !default;
-$input-btn-padding-x:         .75rem !default;
+$input-btn-padding-y:         .675rem;
+$input-btn-padding-x:         1.75rem;
 $input-btn-font-size:         $font-size-base !default;
 $input-btn-line-height:       $line-height-base !default;
 
@@ -373,8 +373,8 @@ $input-btn-border-width:      $border-width !default;
 //
 // For each of Bootstrap's buttons, define text, background, and border color.
 
-$btn-padding-y:               $input-btn-padding-y !default;
-$btn-padding-x:               $input-btn-padding-x !default;
+$btn-padding-y:               $input-btn-padding-y;
+$btn-padding-x:               $input-btn-padding-x;
 $btn-font-size:               $input-btn-font-size !default;
 $btn-line-height:             $input-btn-line-height !default;
 
@@ -402,7 +402,7 @@ $btn-link-disabled-color:     $gray-600 !default;
 $btn-block-spacing-y:         .5rem !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius:           $border-radius !default;
+$btn-border-radius:           $border-radius-sm;
 $btn-border-radius-lg:        $border-radius-lg !default;
 $btn-border-radius-sm:        $border-radius-sm !default;
 

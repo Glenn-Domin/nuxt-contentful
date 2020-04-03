@@ -2,18 +2,15 @@
   <main class="container">
     <div style="text-align: left;">
       <h1 class="title">
-        Me
+        Contact
       </h1>
-      <p>Me Content.</p>
+      <p>Contact content.</p>
     </div>
   </main>
 </template>
 
 <script>
 export default {
-  name: 'Me'
+  name: 'Contact'
 }
 </script>
-
-<style>
-</style>

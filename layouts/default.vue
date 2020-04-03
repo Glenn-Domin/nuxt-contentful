@@ -1,16 +1,19 @@
 <template>
-  <div class="container overflow-hidden">
+  <div class="container overflow-hidden px-4 px-md-5">
     <navbar class="my-4" />
     <nuxt class="my-5" />
+    <sitefooter class="my-4" />
   </div>
 </template>
 
 <script>
 import navbar from '~/components/NavBar'
+import sitefooter from '~/components/Footer'
 
 export default {
   components: {
-    navbar
+    navbar,
+    sitefooter
   }
 }
 </script>
