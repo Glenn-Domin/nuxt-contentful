@@ -1,17 +1,20 @@
 <template>
   <div class="overflow-hidden">
+    <skiptocontent />
     <navbar class="container my-4" />
-    <nuxt class="my-5" />
+    <nuxt id="main" class="my-5" />
     <sitefooter class="container my-4" />
   </div>
 </template>
 
 <script>
+import skiptocontent from '~/components/SkipToContent'
 import navbar from '~/components/NavBar'
 import sitefooter from '~/components/Footer'
 
 export default {
   components: {
+    skiptocontent,
     navbar,
     sitefooter
   }

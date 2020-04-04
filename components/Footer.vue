@@ -2,13 +2,13 @@
   <footer>
     <div class="row">
       <address class="col-md-6">
-        <span class="h2">Brett Jacobson</span> <br>
+        <span class="h3">Brett Jacobson</span> <br>
         Provisional Psychologist <br>
         <a href="tel:0412345678">04 1234 5678</a> <br>
         <a href="mailto:fake@email.com">fake@email.com</a>
       </address>
       <div class="col-md-6 text-md-right">
-        <p class="h2 mb-0">
+        <p class="h3 mb-0">
           Location
         </p>
         <p>
