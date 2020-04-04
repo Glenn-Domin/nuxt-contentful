@@ -35,6 +35,7 @@ $grays: map-merge(
 );
 
 $blue:    #0075b9;
+$lightblue: #509cf5;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -67,7 +68,7 @@ $colors: map-merge(
 );
 
 $primary:       $blue;
-$secondary:     $gray-600 !default;
+$secondary:     $lightblue;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -193,7 +194,7 @@ $grid-breakpoints: map-merge(
     xs: 0,
     sm: 576px,
     md: 768px,
-    lg: 860px
+    lg: 1000px
   ),
   $grid-breakpoints
 );
@@ -212,7 +213,7 @@ $container-max-widths: map-merge(
   (
     sm: 540px,
     md: 720px,
-    lg: 820px
+    lg: 960px
   ),
   $container-max-widths
 );
@@ -347,7 +348,7 @@ $hr-margin-y:                 $spacer !default;
 //
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
-$input-btn-padding-y:         .675rem;
+$input-btn-padding-y:         1rem;
 $input-btn-padding-x:         1.75rem;
 $input-btn-font-size:         $font-size-base !default;
 $input-btn-line-height:       $line-height-base !default;
@@ -402,7 +403,7 @@ $btn-link-disabled-color:     $gray-600 !default;
 $btn-block-spacing-y:         .5rem !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius:           $border-radius-sm;
+$btn-border-radius:           $border-radius !default;
 $btn-border-radius-lg:        $border-radius-lg !default;
 $btn-border-radius-sm:        $border-radius-sm !default;
 

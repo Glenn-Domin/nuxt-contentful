@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="container px-4 px-md-5">
     <section>
       <hgroup class="home-heading my-6">
         <h1 class="home-flare py-5">
@@ -19,7 +19,7 @@
         </h2>
         <p>Asymmetrical wolf pork belly woke fixie disrupt hell of pitchfork. VHS hella tumeric.</p>
         <p>I'm currently accepting new clients.</p>
-        <nuxt-link to="/" class="btn btn-primary" tag="button">
+        <nuxt-link to="/" class="btn btn-secondary" tag="button">
           Book an appointment
         </nuxt-link>
       </div>
