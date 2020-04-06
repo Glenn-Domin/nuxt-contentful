@@ -238,7 +238,7 @@ $line-height-sm:              1.5 !default;
 $border-width:                1px !default;
 $border-color:                $gray-300 !default;
 
-$border-radius:               .25rem !default;
+$border-radius:               .125rem;
 $border-radius-lg:            .3rem !default;
 $border-radius-sm:            1px;
 
@@ -347,7 +347,7 @@ $hr-margin-y:                 $spacer !default;
 //
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
-$input-btn-padding-y:         1rem;
+$input-btn-padding-y:         0.8rem;
 $input-btn-padding-x:         1.75rem;
 $input-btn-font-size:         $font-size-base !default;
 $input-btn-line-height:       $line-height-base !default;
@@ -408,6 +408,10 @@ $btn-border-radius-sm:        $border-radius-sm !default;
 
 $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 
+
+// Forms
+
+$label-margin-bottom:                   .25rem;
 
 // Navs
 
