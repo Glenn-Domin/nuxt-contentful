@@ -15,7 +15,7 @@
           <a href="https://goo.gl/maps/1wFQthHu5FDLGbtV7" target="_blank" rel="noreferrer">
             Providence House <br>
             341 Gregory Tce <br>
-            Spring Hill Q 4000
+            Spring Hill QLD 4000
           </a>
         </p>
       </div>

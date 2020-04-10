@@ -26,7 +26,7 @@
               <p>
                 Providence House <br>
                 341 Gregory Tce <br>
-                Spring Hill Q 4000
+                Spring Hill QLD 4000
               </p>
               <small class="d-block">
                 Providence House is located within the Canossian Sisters of Charity premises situated alongside the Holy Family Child Care Centre. Access is easy for those with low mobility as Reception and a private counselling room are on the ground floor.
@@ -54,7 +54,7 @@
           name="contact"
           method="post"
           data-netlify="true"
-          data-netlify-honeypot="bot-field"
+          data-netlify-honeypot="thetest"
           class="row"
         >
           <div class="col-md-6">
@@ -95,6 +95,10 @@
             <div class="form-group flex-grow-1 d-md-flex flex-column">
               <label for="message">Message</label>
               <textarea id="message" name="message" class="form-control flex-grow-1" required />
+            </div>
+            <div class="sr-only">
+              <label for="thetest">Please leave this field blank.</label>
+              <input id="thetest" name="lastname" autocomplete="off" tabindex="-1">
             </div>
             <button type="submit" class="btn btn-primary">
               Enquire
