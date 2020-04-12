@@ -1,0 +1,20 @@
+ul {
+
+  .content & {
+    list-style: none;
+    padding-left: 1.75rem;
+    font-size: 1.125rem;
+    column-count: 2;
+    line-height: 2;
+
+    li {
+
+      &::before {
+        content: '❖';
+        opacity: 0.65;
+        margin-left: -27.98px;
+        padding-right: 0.75rem;
+      }
+    }
+  }
+}

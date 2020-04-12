@@ -11,13 +11,13 @@
         </nuxt-link>
       </li>
       <li class="nav-item">
-        <nuxt-link to="/" class="nav-link">
-          <span>Referrals</span>
+        <nuxt-link to="/treatment" class="nav-link">
+          <span>Treatment</span>
         </nuxt-link>
       </li>
       <li class="nav-item">
-        <nuxt-link to="/" class="nav-link">
-          <span>FAQ</span>
+        <nuxt-link to="/fees" class="nav-link">
+          <span>Fees</span>
         </nuxt-link>
       </li>
       <li class="nav-item">

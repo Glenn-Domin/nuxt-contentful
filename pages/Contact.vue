@@ -129,7 +129,12 @@
 
 <script>
 export default {
-  name: 'Contact'
+  name: 'Contact',
+  head () {
+    return {
+      title: 'Contact'
+    }
+  }
 }
 </script>
 

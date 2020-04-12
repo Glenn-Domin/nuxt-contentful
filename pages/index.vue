@@ -34,10 +34,7 @@ export default {
   head () {
     return {
       title: 'Brett Jacobson, Psychologist',
-      titleTemplate: '%s',
-      htmlAttrs: {
-        lang: 'en'
-      }
+      titleTemplate: '%s'
     }
   }
 }

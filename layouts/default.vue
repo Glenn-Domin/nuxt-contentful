@@ -2,7 +2,7 @@
   <div class="overflow-hidden">
     <skiptocontent />
     <navbar class="container my-4" />
-    <nuxt id="main" class="my-5" />
+    <nuxt id="main" class="content my-5" />
     <sitefooter class="container my-4" />
   </div>
 </template>
