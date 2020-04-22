@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container">
+    <div class="container px-4 px-md-5">
       <section class="row mb-5">
         <div class="col-md-6 order-md-1 pl-md-5">
           <h1 class="title">

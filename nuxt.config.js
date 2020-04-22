@@ -64,5 +64,8 @@ export default {
     }
   },
   env: {
+  },
+  router: {
+    linkActiveClass: 'active'
   }
 }

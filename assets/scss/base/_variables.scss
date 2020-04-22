@@ -292,7 +292,7 @@ $font-weight-bolder:          bolder !default;
 $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default;
 
-$h1-font-size:                $font-size-base * 3.4375;
+$h1-font-size:                $font-size-base * 3;
 $h2-font-size:                $font-size-base * 2.75;
 $h3-font-size:                $font-size-base * 2.25;
 $h4-font-size:                $font-size-base * 1.5;
@@ -302,9 +302,9 @@ $headings-margin-bottom:      $spacer / 2 !default;
 $headings-font-family:        'Shadows Into Light', 'serif';
 $headings-font-weight:        400;
 $headings-line-height:        1.2 !default;
-$headings-color:              $gray-600;
+$headings-color:              $gray-500;
 
-$display1-size:               6rem !default;
+$display1-size:               3.4375rem;
 $display2-size:               5.5rem !default;
 $display3-size:               4.5rem !default;
 $display4-size:               3.5rem !default;

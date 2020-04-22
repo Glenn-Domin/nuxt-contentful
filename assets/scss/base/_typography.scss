@@ -14,3 +14,13 @@ h1,
     font-size: 2rem;
   }
 }
+
+h4,
+.h4 {
+  font-family: $font-family-base;
+  font-weight: 500;
+}
+
+.display-1 {
+  color: $gray-600;
+}

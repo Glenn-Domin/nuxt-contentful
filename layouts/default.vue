@@ -3,7 +3,7 @@
     <skiptocontent />
     <navbar class="container my-4" />
     <nuxt id="main" class="content my-5" />
-    <sitefooter class="container my-4" />
+    <sitefooter class="container my-4 px-4 px-md-5" />
   </div>
 </template>
 
