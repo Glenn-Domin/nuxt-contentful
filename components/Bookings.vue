@@ -1,11 +1,11 @@
 <template>
-  <section class="bookings home-flare d-flex align-items-center py-6">
+  <section class="bookings flare d-flex align-items-center py-6">
     <div class="pr-lg-5">
       <h2>
         Bookings
       </h2>
       <p>Asymmetrical wolf pork belly woke fixie disrupt hell of pitchfork. VHS hella tumeric.</p>
-      <p>I'm currently accepting new clients.</p>
+      <p class="font-weight-bold">I'm currently accepting new clients.</p>
       <nuxt-link to="/contact" class="btn btn-secondary" tag="button">
         Book an appointment
       </nuxt-link>
@@ -15,7 +15,7 @@
 </template>
 
 <style lang="scss">
-.bookings {
+.flare.bookings {
 
   &::before {
     background-image: url('/images/flare-blocky2.png');

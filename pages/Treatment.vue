@@ -23,12 +23,17 @@
         </div>
       </section>
     </div>
+    <bookings />
   </main>
 </template>
 
 <script>
+import bookings from '@/components/Bookings'
 export default {
   name: 'Treatment',
+  components: {
+    bookings
+  },
   head () {
     return {
       title: 'Treatment'

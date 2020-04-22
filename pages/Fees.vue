@@ -6,12 +6,17 @@
       </h1>
       <p>Fees content.</p>
     </div>
+    <bookings />
   </main>
 </template>
 
 <script>
+import bookings from '@/components/Bookings'
 export default {
   name: 'Fees',
+  components: {
+    bookings
+  },
   head () {
     return {
       title: 'Fees'

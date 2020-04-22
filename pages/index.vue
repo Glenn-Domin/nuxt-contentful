@@ -2,7 +2,7 @@
   <main class="container">
     <section>
       <hgroup class="home-heading my-6">
-        <h1 class="home-flare display-1 py-5">
+        <h1 class="flare display-1 py-5">
           I'm baby humblebrag pinterest photo booth, organic tousled brunch 90's man
         </h1>
         <h2 class="h3">
@@ -41,7 +41,7 @@ export default {
   line-height: 2;
 }
 
-.home-flare {
+.flare {
   position: relative;
 
   &::before {
