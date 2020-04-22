@@ -13,7 +13,12 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'prefetch', href: '/images/not-brettie.jpg' },
+      { rel: 'prefetch', href: '/images/entrance.jpg' },
+      { rel: 'prefetch', href: '/fonts/zillaslab-medium-webfont.woff2' },
+      { rel: 'prefetch', href: '/fonts/shadowsintolight-regular-webfont.woff2' },
+      { rel: 'prefetch', href: '/fonts/zillaslab-regular-webfont.woff2' }
     ],
     titleTemplate: '%s - Brett Jacobson, Psychologist'
   },

@@ -4,8 +4,12 @@
       <h2>
         Bookings
       </h2>
-      <p>Asymmetrical wolf pork belly woke fixie disrupt hell of pitchfork. VHS hella tumeric.</p>
-      <p class="font-weight-bold">I'm currently accepting new clients.</p>
+      <p>
+        Asymmetrical wolf pork belly woke fixie disrupt hell of pitchfork. VHS hella tumeric.
+      </p>
+      <p class="font-weight-bold">
+        I'm currently accepting new clients.
+      </p>
       <nuxt-link to="/contact" class="btn btn-secondary" tag="button">
         Book an appointment
       </nuxt-link>
