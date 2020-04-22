@@ -14,7 +14,7 @@
         Book an appointment
       </nuxt-link>
     </div>
-    <img src="/images/bookings.jpg" width="300" height="300">
+    <img src="/images/bookings.jpg" width="300" height="300" alt="" loading="lazy">
   </section>
 </template>
 
