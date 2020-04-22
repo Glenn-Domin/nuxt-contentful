@@ -26,7 +26,11 @@ export default {
   head () {
     return {
       title: 'Brett Jacobson, Psychologist',
-      titleTemplate: '%s'
+      titleTemplate: '%s',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'idescription', name: 'description', content: 'the home description' }
+      ]
     }
   }
 }

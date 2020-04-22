@@ -132,7 +132,11 @@ export default {
   name: 'Contact',
   head () {
     return {
-      title: 'Contact'
+      title: 'Contact',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'idescription', name: 'description', content: 'the contact description' }
+      ]
     }
   }
 }

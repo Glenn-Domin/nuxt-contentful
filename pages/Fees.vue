@@ -19,7 +19,11 @@ export default {
   },
   head () {
     return {
-      title: 'Fees'
+      title: 'Fees',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'fdescription', name: 'description', content: 'the fees description' }
+      ]
     }
   }
 }
