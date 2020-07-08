@@ -23,3 +23,5 @@ fields:
     schema:
       format: markdown
   label: Main content
+pages:
+- ".forestry/Home.md"
