@@ -1,4 +1,25 @@
 ---
 label: Home
 hide_body: true
-fields: []
+fields:
+- name: main_heading
+  type: text
+  config:
+    required: false
+  label: Main Heading
+  description: It's the blurb near the top
+- name: sub_heading
+  type: text
+  config:
+    required: false
+  label: Sub Heading
+  description: The sub-blurb
+- name: main_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Main content
